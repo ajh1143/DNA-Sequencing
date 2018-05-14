@@ -59,3 +59,4 @@ class DNAStuff(object):
         'TAC':'Y', 'TAT':'Y', 'TAA':'_', 'TAG':'_',
         'TGC':'C', 'TGT':'C', 'TGA':'_', 'TGG':'W',
         }
+        return AminoAcids
