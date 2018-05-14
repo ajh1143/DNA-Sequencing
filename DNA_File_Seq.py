@@ -39,6 +39,11 @@ class DNAStuff(object):
                 codon = self.triplet_codon(line)
                 seq = Bio.Seq(line)
                 print(seq)
+                
+    #Translate DNA to RNA
+    def DNA_to_RNA(self, something):
+        #some code, handle Thymine/Uracil
+        return RNA
     
     def Codon_Table(self):
         AminoAcids = {
