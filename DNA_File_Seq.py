@@ -16,11 +16,7 @@ class DNAStuff(object):
     def triplet_codon(self, line):
         while line:
             data = line.read(3)
-            
-    #Shift reading frame 
-    def frame_shift_mutation(self):
-        #start codon +1 char ahead
-        
+                   
     #Start Codon detection
     def start_codon(self, frame):
         start_code = ['AUG']
@@ -45,6 +41,16 @@ class DNAStuff(object):
         #some code, handle Thymine/Uracil
         return RNA
     
+        #Shift reading frame 
+    def frame_shift_mutation(self):
+        #start codon +1 char ahead
+        
+    def missense_mutation(self):
+        #missense code
+        
+    def nonsense_mutation(self):
+        #nonsense code
+        
     def Codon_Table(self):
         AminoAcids = {
         'ATA':'I', 'ATC':'I', 'ATT':'I', 'ATG':'M',
